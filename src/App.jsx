@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Counter from './counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,9 @@ function App() {
         
         <div>
           <h1>Get started</h1>
+
+          <Counter></Counter>
+
           <button onClick={handleClick}>Click Me</button>
           <button onClick={function handleClick2() {
             alert('(inline function)CLicked Me 2')

@@ -182,3 +182,8 @@
     border-right-color: var(--border);
   }
 }
+
+.users {
+  border: 2px solid brown;
+  padding: 10px;
+}

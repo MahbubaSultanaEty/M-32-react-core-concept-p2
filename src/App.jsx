@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Counter from './counter'
- import Batsman from './Batsman'
+import Batsman from './Batsman'
+ import Users from './users'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
         <div>
           <h1>Get started</h1>
 
+          <Users></Users>
           <Batsman></Batsman>
           <Counter></Counter>
 

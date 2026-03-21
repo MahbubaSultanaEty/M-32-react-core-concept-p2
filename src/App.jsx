@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Counter from './counter'
+ import Batsman from './Batsman'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
         <div>
           <h1>Get started</h1>
 
+          <Batsman></Batsman>
           <Counter></Counter>
 
           <button onClick={handleClick}>Click Me</button>

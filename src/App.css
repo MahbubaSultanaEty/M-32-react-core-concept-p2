@@ -187,3 +187,9 @@
   border: 2px solid brown;
   padding: 10px;
 }
+
+.card{
+  border: 2px solid khaki;
+  padding: 10px;
+  margin: 5px;
+}

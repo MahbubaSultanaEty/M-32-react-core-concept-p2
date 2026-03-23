@@ -9,7 +9,7 @@ export default function Comments({ commentPromise }) {
         <div className="card"> 
             <h3>Comments : {comments.length}</h3>
             {
-                comments.map(comment => <Comment></Comment>)
+                comments.map(comment => <Comment comment={comment}></Comment>)
             }
         </div>
     )
